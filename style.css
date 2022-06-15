@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Nunito' , sans-serif;
+    font-weight: 600;
+}
+#header{
+    display: flex;
+    font-size: x-large;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: sticky;
+    top: 0%;
+}
+#Tictactoe{
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 0%;
+    top: 15%;
+    right: 0%;
+    bottom: 0%;
+    margin: 0 auto;
+    width: 450px;
+    height: 336px;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    /* align-content: center; */
+    background-color: #2c3e50;
+    border: 6px solid #2c3e50;
+    border-radius: 10px;
+}
+#singleBox1 , #singleBox2 , #singleBox3, #singleBox4, #singleBox5, #singleBox6, #singleBox7 , #singleBox8, #singleBox9{
+    display: grid;
+    /* width: 33.333333333%; */
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    /* position: sticky; */
+    background-color: #34495e;
+    color: #fff;
+    border: 6px solid #2c3e50;
+    border-radius: 2px;
+    font-size: 80px;
+    font-weight: 400;
+}
+
+
+#PanelSelection{
+    background-color: #34495e;
+    border: 6px #2c3e50;
+    border-radius: 2px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    bottom: 5%;
+    /* top: 0%; */
+    margin: 0 auto;
+    width: 166px;
+    height: 66px;
+    right: 0%;
+    left: 0%;
+    position: fixed;
+    grid-template: repeat(1, 1fr) / repeat(2, 1fr);
+}
+
+#SelectAnyXorO{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: auto;
+    font-size: 40px;
+    font-weight: bolder;
+    border: 6px solid #2c3e50;
+    border-radius: 2px;
+}
